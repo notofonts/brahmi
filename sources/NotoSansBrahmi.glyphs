@@ -1,5 +1,8 @@
 {
 .appVersion = "3180";
+DisplayStrings = (
+"/brm_GA/brm_vowelAA/space/brm_vowelBHATTIPROLUAA"
+);
 classes = (
 {
 code = "SA brm_AU brm_BHA brm_CHA brm_DA brm_DDHA brm_GHA brm_HA brm_KA brm_LLA brm_NA brm_NGA brm_NNA brm_NYA brm_O brm_PA brm_PHA brm_R brm_RR brm_SSA brm_TA brm_TTA brm_U brm_UU brm_VA brm_YA";
@@ -1705,7 +1708,7 @@ category = Letter;
 },
 {
 glyphname = brm_KA;
-lastChange = "2023-03-23 13:56:00 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -1732,10 +1735,6 @@ position = "{380, 0}";
 {
 name = bottomright;
 position = "{375, 0}";
-},
-{
-name = bp_aa;
-position = "{375, 717}";
 },
 {
 name = center;
@@ -1782,7 +1781,7 @@ category = Letter;
 },
 {
 glyphname = brm_KHA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -1809,10 +1808,6 @@ position = "{468, 0}";
 {
 name = bottomright;
 position = "{438, 0}";
-},
-{
-name = bp_aa;
-position = "{390, 673}";
 },
 {
 name = ee_oo;
@@ -1864,7 +1859,7 @@ category = Letter;
 },
 {
 glyphname = brm_GA;
-lastChange = "2023-03-23 13:56:21 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -1891,10 +1886,6 @@ position = "{140, 0}";
 {
 name = bottomright;
 position = "{531, 0}";
-},
-{
-name = bp_aa;
-position = "{330, 717}";
 },
 {
 name = ee_oo;
@@ -1932,7 +1923,7 @@ category = Letter;
 },
 {
 glyphname = brm_GHA;
-lastChange = "2023-03-23 13:56:30 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -1959,10 +1950,6 @@ position = "{156, 0}";
 {
 name = bottomright;
 position = "{371, 0}";
-},
-{
-name = bp_aa;
-position = "{146, 717}";
 },
 {
 name = center;
@@ -2021,7 +2008,7 @@ category = Letter;
 },
 {
 glyphname = brm_NGA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2048,10 +2035,6 @@ position = "{156, 0}";
 {
 name = bottomright;
 position = "{439, 0}";
-},
-{
-name = bp_aa;
-position = "{400, 717}";
 },
 {
 name = center;
@@ -2094,7 +2077,7 @@ category = Letter;
 },
 {
 glyphname = brm_CA;
-lastChange = "2023-03-23 13:56:48 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2121,10 +2104,6 @@ position = "{136, 0}";
 {
 name = bottomright;
 position = "{419, 0}";
-},
-{
-name = bp_aa;
-position = "{400, 717}";
 },
 {
 name = ee_oo;
@@ -2181,7 +2160,7 @@ category = Letter;
 },
 {
 glyphname = brm_CHA;
-lastChange = "2023-03-23 13:56:53 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2208,10 +2187,6 @@ position = "{146, 0}";
 {
 name = bottomright;
 position = "{322, 0}";
-},
-{
-name = bp_aa;
-position = "{300, 717}";
 },
 {
 name = center;
@@ -2285,7 +2260,7 @@ category = Letter;
 },
 {
 glyphname = brm_JA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2312,10 +2287,6 @@ position = "{166, 0}";
 {
 name = bottomright;
 position = "{419, 0}";
-},
-{
-name = bp_aa;
-position = "{400, 707}";
 },
 {
 name = ee_oo;
@@ -2379,7 +2350,7 @@ category = Letter;
 },
 {
 glyphname = brm_JHA;
-lastChange = "2023-03-23 13:57:11 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2406,10 +2377,6 @@ position = "{156, 0}";
 {
 name = bottomright;
 position = "{146, 0}";
-},
-{
-name = bp_aa;
-position = "{463, 717}";
 },
 {
 name = ee_oo;
@@ -2460,7 +2427,7 @@ category = Letter;
 },
 {
 glyphname = brm_NYA;
-lastChange = "2023-03-23 13:57:16 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2487,10 +2454,6 @@ position = "{294, 0}";
 {
 name = bottomright;
 position = "{205, 0}";
-},
-{
-name = bp_aa;
-position = "{244, 717}";
 },
 {
 name = center;
@@ -2547,7 +2510,7 @@ category = Letter;
 },
 {
 glyphname = brm_TTA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2574,10 +2537,6 @@ position = "{190, 0}";
 {
 name = bottomright;
 position = "{429, 0}";
-},
-{
-name = bp_aa;
-position = "{395, 717}";
 },
 {
 name = center;
@@ -2630,7 +2589,7 @@ category = Letter;
 },
 {
 glyphname = brm_TTHA;
-lastChange = "2023-03-23 13:57:34 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2653,10 +2612,6 @@ position = "{415, 0}";
 {
 name = bottomright;
 position = "{410, 0}";
-},
-{
-name = bp_aa;
-position = "{488, 654}";
 },
 {
 name = ee_oo;
@@ -2716,7 +2671,7 @@ category = Letter;
 },
 {
 glyphname = brm_DDA;
-lastChange = "2023-03-23 13:57:42 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2743,10 +2698,6 @@ position = "{156, 0}";
 {
 name = bottomright;
 position = "{116, 0}";
-},
-{
-name = bp_aa;
-position = "{356, 717}";
 },
 {
 name = ee_oo;
@@ -2785,7 +2736,7 @@ category = Letter;
 },
 {
 glyphname = brm_DDHA;
-lastChange = "2023-03-23 13:58:02 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2812,10 +2763,6 @@ position = "{146, 0}";
 {
 name = bottomright;
 position = "{332, 0}";
-},
-{
-name = bp_aa;
-position = "{312, 717}";
 },
 {
 name = center;
@@ -2885,7 +2832,7 @@ category = Letter;
 },
 {
 glyphname = brm_NNA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2912,10 +2859,6 @@ position = "{273, 0}";
 {
 name = bottomright;
 position = "{478, 0}";
-},
-{
-name = bp_aa;
-position = "{444, 717}";
 },
 {
 name = center;
@@ -2962,7 +2905,7 @@ category = Letter;
 },
 {
 glyphname = brm_TA;
-lastChange = "2023-03-23 13:58:14 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -2989,10 +2932,6 @@ position = "{120, 0}";
 {
 name = bottomright;
 position = "{506, 0}";
-},
-{
-name = bp_aa;
-position = "{312, 717}";
 },
 {
 name = center;
@@ -3036,7 +2975,7 @@ category = Letter;
 },
 {
 glyphname = brm_THA;
-lastChange = "2023-03-23 13:58:23 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3059,10 +2998,6 @@ position = "{415, 0}";
 {
 name = bottomright;
 position = "{415, 0}";
-},
-{
-name = bp_aa;
-position = "{488, 654}";
 },
 {
 name = ee_oo;
@@ -3139,7 +3074,7 @@ category = Letter;
 },
 {
 glyphname = brm_DA;
-lastChange = "2023-03-23 13:58:33 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3166,10 +3101,6 @@ position = "{187, 0}";
 {
 name = bottomright;
 position = "{98, 0}";
-},
-{
-name = bp_aa;
-position = "{146, 717}";
 },
 {
 name = center;
@@ -3227,7 +3158,7 @@ category = Letter;
 },
 {
 glyphname = brm_DHA;
-lastChange = "2023-03-23 13:58:39 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3254,10 +3185,6 @@ position = "{176, 0}";
 {
 name = bottomright;
 position = "{244, 0}";
-},
-{
-name = bp_aa;
-position = "{332, 664}";
 },
 {
 name = ee_oo;
@@ -3310,7 +3237,7 @@ category = Letter;
 },
 {
 glyphname = brm_NA;
-lastChange = "2023-03-23 13:58:51 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3337,10 +3264,6 @@ position = "{290, 0}";
 {
 name = bottomright;
 position = "{478, 0}";
-},
-{
-name = bp_aa;
-position = "{268, 717}";
 },
 {
 name = center;
@@ -3383,7 +3306,7 @@ category = Letter;
 },
 {
 glyphname = brm_PA;
-lastChange = "2023-03-23 13:58:57 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3410,10 +3333,6 @@ position = "{146, 0}";
 {
 name = bottomright;
 position = "{322, 0}";
-},
-{
-name = bp_aa;
-position = "{146, 717}";
 },
 {
 name = center;
@@ -3466,7 +3385,7 @@ category = Letter;
 },
 {
 glyphname = brm_PHA;
-lastChange = "2023-03-23 13:59:01 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3493,10 +3412,6 @@ position = "{146, 0}";
 {
 name = bottomright;
 position = "{322, 0}";
-},
-{
-name = bp_aa;
-position = "{146, 717}";
 },
 {
 name = center;
@@ -3559,7 +3474,7 @@ category = Letter;
 },
 {
 glyphname = brm_BA;
-lastChange = "2023-03-23 13:59:09 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3586,10 +3501,6 @@ position = "{175, 73}";
 {
 name = bottomright;
 position = "{585, 78}";
-},
-{
-name = bp_aa;
-position = "{624, 644}";
 },
 {
 name = ee_oo;
@@ -3633,7 +3544,7 @@ category = Letter;
 },
 {
 glyphname = brm_BHA;
-lastChange = "2023-03-23 13:59:16 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3660,10 +3571,6 @@ position = "{175, 0}";
 {
 name = bottomright;
 position = "{580, 0}";
-},
-{
-name = bp_aa;
-position = "{781, 717}";
 },
 {
 name = center;
@@ -3710,7 +3617,7 @@ category = Letter;
 },
 {
 glyphname = brm_MA;
-lastChange = "2023-03-23 13:59:31 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3737,10 +3644,6 @@ position = "{176, 0}";
 {
 name = bottomright;
 position = "{375, 0}";
-},
-{
-name = bp_aa;
-position = "{571, 717}";
 },
 {
 name = ee_oo;
@@ -3818,7 +3721,7 @@ category = Letter;
 },
 {
 glyphname = brm_YA;
-lastChange = "2023-03-23 13:59:40 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3845,10 +3748,6 @@ position = "{110, 15}";
 {
 name = bottomright;
 position = "{585, 0}";
-},
-{
-name = bp_aa;
-position = "{400, 717}";
 },
 {
 name = center;
@@ -3916,7 +3815,7 @@ category = Letter;
 },
 {
 glyphname = brm_RA;
-lastChange = "2023-03-23 13:59:46 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -3943,10 +3842,6 @@ position = "{166, 0}";
 {
 name = bottomright;
 position = "{146, 0}";
-},
-{
-name = bp_aa;
-position = "{161, 717}";
 },
 {
 name = ee_oo;
@@ -3981,7 +3876,7 @@ category = Letter;
 },
 {
 glyphname = brm_LA;
-lastChange = "2023-03-23 13:59:53 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4008,10 +3903,6 @@ position = "{325, 80}";
 {
 name = bottomright;
 position = "{439, 0}";
-},
-{
-name = bp_aa;
-position = "{585, 717}";
 },
 {
 name = ee_oo;
@@ -4061,7 +3952,7 @@ category = Letter;
 },
 {
 glyphname = brm_VA;
-lastChange = "2023-03-23 14:00:02 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4088,10 +3979,6 @@ position = "{143, 0}";
 {
 name = bottomright;
 position = "{244, 0}";
-},
-{
-name = bp_aa;
-position = "{249, 717}";
 },
 {
 name = center;
@@ -4158,7 +4045,7 @@ category = Letter;
 },
 {
 glyphname = brm_SHA;
-lastChange = "2023-03-23 14:00:10 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4185,10 +4072,6 @@ position = "{367, 0}";
 {
 name = bottomright;
 position = "{289, 0}";
-},
-{
-name = bp_aa;
-position = "{327, 717}";
 },
 {
 name = ee_oo;
@@ -4231,7 +4114,7 @@ category = Letter;
 },
 {
 glyphname = brm_SSA;
-lastChange = "2023-03-23 14:00:16 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4258,10 +4141,6 @@ position = "{146, 0}";
 {
 name = bottomright;
 position = "{439, 0}";
-},
-{
-name = bp_aa;
-position = "{146, 717}";
 },
 {
 name = center;
@@ -4318,7 +4197,7 @@ category = Letter;
 },
 {
 glyphname = SA;
-lastChange = "2023-03-23 14:00:29 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4345,10 +4224,6 @@ position = "{480, 80}";
 {
 name = bottomright;
 position = "{585, 0}";
-},
-{
-name = bp_aa;
-position = "{395, 717}";
 },
 {
 name = center;
@@ -4417,7 +4292,7 @@ category = Letter;
 },
 {
 glyphname = brm_HA;
-lastChange = "2023-03-23 14:00:35 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4444,10 +4319,6 @@ position = "{146, 0}";
 {
 name = bottomright;
 position = "{375, 0}";
-},
-{
-name = bp_aa;
-position = "{146, 717}";
 },
 {
 name = center;
@@ -4500,7 +4371,7 @@ category = Letter;
 },
 {
 glyphname = brm_LLA;
-lastChange = "2023-03-23 14:00:49 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4527,10 +4398,6 @@ position = "{320, 80}";
 {
 name = bottomright;
 position = "{478, 0}";
-},
-{
-name = bp_aa;
-position = "{590, 717}";
 },
 {
 name = center;
@@ -4599,7 +4466,7 @@ category = Letter;
 },
 {
 glyphname = brm_LLLA;
-lastChange = "2023-03-23 14:00:56 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4626,10 +4493,6 @@ position = "{153, 0}";
 {
 name = bottomright;
 position = "{63, 0}";
-},
-{
-name = bp_aa;
-position = "{322, 717}";
 },
 {
 name = ee_oo;
@@ -4703,7 +4566,7 @@ category = Letter;
 },
 {
 glyphname = brm_RRA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4730,10 +4593,6 @@ position = "{146, 0}";
 {
 name = bottomright;
 position = "{370, 0}";
-},
-{
-name = bp_aa;
-position = "{390, 717}";
 },
 {
 name = ee_oo;
@@ -4799,7 +4658,7 @@ category = Letter;
 },
 {
 glyphname = brm_NNNA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -4826,10 +4685,6 @@ position = "{244, 0}";
 {
 name = bottomright;
 position = "{537, 0}";
-},
-{
-name = bp_aa;
-position = "{439, 683}";
 },
 {
 name = ee_oo;
@@ -4916,7 +4771,7 @@ subCategory = Nonspacing;
 },
 {
 glyphname = brm_vowelBHATTIPROLUAA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:10:40 +0000";
 layers = (
 {
 anchors = (
@@ -4925,8 +4780,8 @@ name = Anchor33;
 position = "{146, 917}";
 },
 {
-name = _bp_aa;
-position = "{241, 632}";
+name = _aa;
+position = "{-8, 842}";
 }
 );
 layerId = UUID0;
@@ -12401,7 +12256,7 @@ category = Letter;
 },
 {
 glyphname = brm_SVA;
-lastChange = "2023-03-23 14:06:58 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -12428,10 +12283,6 @@ position = "{470, -293}";
 {
 name = bottomright;
 position = "{585, -229}";
-},
-{
-name = bp_aa;
-position = "{397, 717}";
 },
 {
 name = ee_oo;
@@ -12524,7 +12375,7 @@ category = Letter;
 },
 {
 glyphname = brm_KSSA;
-lastChange = "2023-03-23 14:07:12 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -12551,10 +12402,6 @@ position = "{410, -293}";
 {
 name = bottomright;
 position = "{520, -217}";
-},
-{
-name = bp_aa;
-position = "{375, 717}";
 },
 {
 name = ee_oo;
@@ -12614,7 +12461,7 @@ category = Letter;
 },
 {
 glyphname = brm_JNYA;
-lastChange = "2023-03-23 14:07:24 +0000";
+lastChange = "2023-03-23 14:09:38 +0000";
 layers = (
 {
 anchors = (
@@ -12641,10 +12488,6 @@ position = "{320, -293}";
 {
 name = bottomright;
 position = "{237, -293}";
-},
-{
-name = bp_aa;
-position = "{366, 717}";
 },
 {
 name = ee_oo;
@@ -17083,7 +16926,7 @@ category = Letter;
 },
 {
 glyphname = uni25CC;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 14:09:39 +0000";
 layers = (
 {
 anchors = (
@@ -17114,10 +16957,6 @@ position = "{97, 0}";
 {
 name = bottomright;
 position = "{332, 0}";
-},
-{
-name = bp_aa;
-position = "{537, 717}";
 },
 {
 name = center;
