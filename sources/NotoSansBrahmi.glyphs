@@ -1,5 +1,8 @@
 {
-.appVersion = "1357";
+.appVersion = "3180";
+DisplayStrings = (
+"/brm_digit9"
+);
 classes = (
 {
 code = "SA brm_AU brm_BHA brm_CHA brm_DA brm_DDHA brm_GHA brm_HA brm_KA brm_LLA brm_NA brm_NGA brm_NNA brm_NYA brm_O brm_PA brm_PHA brm_R brm_RR brm_SSA brm_TA brm_TTA brm_U brm_UU brm_VA brm_YA";
@@ -372,6 +375,10 @@ name = "Don't use Production Names";
 value = 1;
 },
 {
+name = "Use Typo Metrics";
+value = 1;
+},
+{
 name = description;
 value = "Designed by Monotype design team.";
 },
@@ -394,10 +401,6 @@ value = "Noto is a trademark of Google Inc.";
 {
 name = versionString;
 value = "Version 2.003";
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 }
 );
 date = "2021-12-16 18:37:52 +0000";
@@ -780,15 +783,15 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor16;
-position = "{68, 786}";
-},
-{
 name = _Anchor29;
 position = "{68, 786}";
 },
 {
 name = _Anchor33;
+position = "{68, 786}";
+},
+{
+name = _top;
 position = "{68, 786}";
 }
 );
@@ -1242,7 +1245,7 @@ name = Anchor29;
 position = "{263, 786}";
 },
 {
-name = Anchor31;
+name = center;
 position = "{263, 478}";
 }
 );
@@ -1278,7 +1281,7 @@ name = Anchor29;
 position = "{263, 786}";
 },
 {
-name = Anchor31;
+name = center;
 position = "{263, 478}";
 }
 );
@@ -1317,7 +1320,7 @@ name = Anchor29;
 position = "{292, 786}";
 },
 {
-name = Anchor31;
+name = center;
 position = "{449, 229}";
 }
 );
@@ -1359,7 +1362,7 @@ name = Anchor29;
 position = "{292, 786}";
 },
 {
-name = Anchor31;
+name = center;
 position = "{449, 229}";
 }
 );
@@ -1635,7 +1638,7 @@ name = Anchor29;
 position = "{361, 786}";
 },
 {
-name = Anchor31;
+name = center;
 position = "{371, 478}";
 }
 );
@@ -1673,7 +1676,7 @@ name = Anchor29;
 position = "{361, 786}";
 },
 {
-name = Anchor31;
+name = center;
 position = "{371, 478}";
 }
 );
@@ -1710,48 +1713,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{341, 717}";
 },
 {
-name = Anchor14;
-position = "{341, 717}";
-},
-{
-name = Anchor15;
-position = "{375, 717}";
-},
-{
-name = Anchor16;
-position = "{375, 786}";
-},
-{
-name = Anchor17;
-position = "{380, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{375, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{380, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{375, 0}";
 },
 {
-name = Anchor23;
-position = "{375, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{380, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{375, 0}";
+},
+{
+name = bp_aa;
+position = "{375, 717}";
+},
+{
+name = center;
 position = "{498, 478}";
+},
+{
+name = ee_oo;
+position = "{380, 717}";
+},
+{
+name = top;
+position = "{375, 786}";
+},
+{
+name = topleft;
+position = "{341, 717}";
 }
 );
 layerId = UUID0;
@@ -1787,44 +1790,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{346, 717}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{370, 717}";
 },
 {
-name = Anchor15;
-position = "{390, 673}";
-},
-{
-name = Anchor16;
-position = "{292, 786}";
-},
-{
-name = Anchor17;
-position = "{468, 341}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{468, 292}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{468, 268}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{468, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{468, 0}";
+},
+{
+name = bottomright;
 position = "{438, 0}";
 },
 {
-name = Anchor26;
-position = "{468, 0}";
+name = bp_aa;
+position = "{390, 673}";
+},
+{
+name = ee_oo;
+position = "{468, 341}";
+},
+{
+name = top;
+position = "{292, 786}";
+},
+{
+name = topleft;
+position = "{346, 717}";
 }
 );
 layerId = UUID0;
@@ -1864,49 +1867,49 @@ category = Letter;
 },
 {
 glyphname = brm_GA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:34:21 +0000";
 layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{332, 717}";
 },
 {
-name = Anchor14;
-position = "{332, 717}";
-},
-{
-name = Anchor15;
-position = "{330, 717}";
-},
-{
-name = Anchor16;
-position = "{332, 786}";
-},
-{
-name = Anchor17;
-position = "{317, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{317, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{322, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{332, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{140, 0}";
+},
+{
+name = bottomright;
 position = "{531, 0}";
 },
 {
-name = Anchor26;
-position = "{140, 0}";
+name = bp_aa;
+position = "{330, 717}";
+},
+{
+name = ee_oo;
+position = "{317, 717}";
+},
+{
+name = top;
+position = "{332, 786}";
+},
+{
+name = topleft;
+position = "{332, 717}";
 }
 );
 layerId = UUID0;
@@ -1937,48 +1940,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{146, 717}";
 },
 {
-name = Anchor14;
-position = "{146, 717}";
-},
-{
-name = Anchor15;
-position = "{146, 717}";
-},
-{
-name = Anchor16;
-position = "{361, 786}";
-},
-{
-name = Anchor17;
-position = "{146, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{185, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{146, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{361, 0}";
 },
 {
-name = Anchor23;
-position = "{371, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{156, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{371, 0}";
+},
+{
+name = bp_aa;
+position = "{146, 717}";
+},
+{
+name = center;
 position = "{292, 478}";
+},
+{
+name = ee_oo;
+position = "{146, 717}";
+},
+{
+name = top;
+position = "{361, 786}";
+},
+{
+name = topleft;
+position = "{146, 717}";
 }
 );
 layerId = UUID0;
@@ -2026,48 +2029,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{156, 717}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{156, 419}";
 },
 {
-name = Anchor15;
-position = "{400, 717}";
-},
-{
-name = Anchor16;
-position = "{268, 786}";
-},
-{
-name = Anchor17;
-position = "{156, 390}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{185, 361}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{156, 361}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{273, 0}";
 },
 {
-name = Anchor23;
-position = "{439, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{156, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{439, 0}";
+},
+{
+name = bp_aa;
+position = "{400, 717}";
+},
+{
+name = center;
 position = "{292, 312}";
+},
+{
+name = ee_oo;
+position = "{156, 390}";
+},
+{
+name = top;
+position = "{268, 786}";
+},
+{
+name = topleft;
+position = "{156, 717}";
 }
 );
 layerId = UUID0;
@@ -2099,44 +2102,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{371, 717}";
 },
 {
-name = Anchor14;
-position = "{371, 717}";
-},
-{
-name = Anchor15;
-position = "{400, 717}";
-},
-{
-name = Anchor16;
-position = "{395, 786}";
-},
-{
-name = Anchor17;
-position = "{395, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{410, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{395, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{283, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{136, 0}";
+},
+{
+name = bottomright;
 position = "{419, 0}";
 },
 {
-name = Anchor26;
-position = "{136, 0}";
+name = bp_aa;
+position = "{400, 717}";
+},
+{
+name = ee_oo;
+position = "{395, 717}";
+},
+{
+name = top;
+position = "{395, 786}";
+},
+{
+name = topleft;
+position = "{371, 717}";
 }
 );
 layerId = UUID0;
@@ -2186,48 +2189,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{292, 717}";
 },
 {
-name = Anchor14;
-position = "{292, 717}";
-},
-{
-name = Anchor15;
-position = "{300, 717}";
-},
-{
-name = Anchor16;
-position = "{302, 786}";
-},
-{
-name = Anchor17;
-position = "{307, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{307, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{307, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{302, 0}";
 },
 {
-name = Anchor23;
-position = "{322, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{146, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{322, 0}";
+},
+{
+name = bp_aa;
+position = "{300, 717}";
+},
+{
+name = center;
 position = "{390, 478}";
+},
+{
+name = ee_oo;
+position = "{307, 717}";
+},
+{
+name = top;
+position = "{302, 786}";
+},
+{
+name = topleft;
+position = "{292, 717}";
 }
 );
 layerId = UUID0;
@@ -2290,44 +2293,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{283, 717}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{244, 717}";
 },
 {
-name = Anchor15;
-position = "{400, 707}";
-},
-{
-name = Anchor16;
-position = "{283, 786}";
-},
-{
-name = Anchor17;
-position = "{146, 561}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{146, 537}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{292, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{166, 0}";
+},
+{
+name = bottomright;
 position = "{419, 0}";
 },
 {
-name = Anchor26;
-position = "{166, 0}";
+name = bp_aa;
+position = "{400, 707}";
+},
+{
+name = ee_oo;
+position = "{146, 561}";
+},
+{
+name = top;
+position = "{283, 786}";
+},
+{
+name = topleft;
+position = "{283, 717}";
 }
 );
 layerId = UUID0;
@@ -2384,44 +2387,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{429, 717}";
 },
 {
-name = Anchor14;
-position = "{429, 717}";
-},
-{
-name = Anchor15;
-position = "{463, 717}";
-},
-{
-name = Anchor16;
-position = "{292, 786}";
-},
-{
-name = Anchor17;
-position = "{146, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{175, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{292, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{156, 0}";
+},
+{
+name = bottomright;
 position = "{146, 0}";
 },
 {
-name = Anchor26;
-position = "{156, 0}";
+name = bp_aa;
+position = "{463, 717}";
+},
+{
+name = ee_oo;
+position = "{146, 717}";
+},
+{
+name = top;
+position = "{292, 786}";
+},
+{
+name = topleft;
+position = "{429, 717}";
 }
 );
 layerId = UUID0;
@@ -2465,48 +2468,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{244, 717}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{244, 644}";
 },
 {
-name = Anchor15;
-position = "{244, 717}";
-},
-{
-name = Anchor16;
-position = "{341, 786}";
-},
-{
-name = Anchor17;
-position = "{256, 488}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{244, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{400, 0}";
 },
 {
-name = Anchor23;
-position = "{205, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{294, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{205, 0}";
+},
+{
+name = bp_aa;
+position = "{244, 717}";
+},
+{
+name = center;
 position = "{351, 566}";
+},
+{
+name = ee_oo;
+position = "{256, 488}";
+},
+{
+name = top;
+position = "{341, 786}";
+},
+{
+name = topleft;
+position = "{244, 717}";
 }
 );
 layerId = UUID0;
@@ -2552,48 +2555,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{346, 717}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{137, 390}";
 },
 {
-name = Anchor15;
-position = "{395, 717}";
-},
-{
-name = Anchor16;
-position = "{292, 786}";
-},
-{
-name = Anchor17;
-position = "{139, 400}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{146, 361}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{139, 351}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{273, 0}";
 },
 {
-name = Anchor23;
-position = "{429, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{190, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{429, 0}";
+},
+{
+name = bp_aa;
+position = "{395, 717}";
+},
+{
+name = center;
 position = "{292, 312}";
+},
+{
+name = ee_oo;
+position = "{139, 400}";
+},
+{
+name = top;
+position = "{292, 786}";
+},
+{
+name = topleft;
+position = "{346, 717}";
 }
 );
 layerId = UUID0;
@@ -2635,40 +2638,40 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{488, 683}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{649, 439}";
 },
 {
-name = Anchor15;
-position = "{488, 654}";
-},
-{
-name = Anchor16;
-position = "{395, 786}";
-},
-{
-name = Anchor17;
-position = "{292, 683}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{185, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{415, 0}";
 },
 {
-name = Anchor23;
+name = bottomright;
 position = "{410, 0}";
+},
+{
+name = bp_aa;
+position = "{488, 654}";
+},
+{
+name = ee_oo;
+position = "{292, 683}";
+},
+{
+name = top;
+position = "{395, 786}";
+},
+{
+name = topleft;
+position = "{488, 683}";
 }
 );
 layerId = UUID0;
@@ -2721,44 +2724,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{332, 717}";
 },
 {
-name = Anchor14;
-position = "{332, 717}";
-},
-{
-name = Anchor15;
-position = "{356, 717}";
-},
-{
-name = Anchor16;
-position = "{356, 786}";
-},
-{
-name = Anchor17;
-position = "{380, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{361, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{380, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{263, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{156, 0}";
+},
+{
+name = bottomright;
 position = "{116, 0}";
 },
 {
-name = Anchor26;
-position = "{156, 0}";
+name = bp_aa;
+position = "{356, 717}";
+},
+{
+name = ee_oo;
+position = "{380, 717}";
+},
+{
+name = top;
+position = "{356, 786}";
+},
+{
+name = topleft;
+position = "{332, 717}";
 }
 );
 layerId = UUID0;
@@ -2790,48 +2793,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{292, 717}";
 },
 {
-name = Anchor14;
-position = "{292, 717}";
-},
-{
-name = Anchor15;
-position = "{312, 717}";
-},
-{
-name = Anchor16;
-position = "{312, 786}";
-},
-{
-name = Anchor17;
-position = "{312, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{312, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{312, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{312, 0}";
 },
 {
-name = Anchor23;
-position = "{332, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{146, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{332, 0}";
+},
+{
+name = bp_aa;
+position = "{312, 717}";
+},
+{
+name = center;
 position = "{400, 478}";
+},
+{
+name = ee_oo;
+position = "{312, 717}";
+},
+{
+name = top;
+position = "{312, 786}";
+},
+{
+name = topleft;
+position = "{292, 717}";
 }
 );
 layerId = UUID0;
@@ -2890,48 +2893,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{224, 717}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{224, 419}";
 },
 {
-name = Anchor15;
-position = "{444, 717}";
-},
-{
-name = Anchor16;
-position = "{273, 786}";
-},
-{
-name = Anchor17;
-position = "{273, 429}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{273, 371}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{273, 361}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{263, 0}";
 },
 {
-name = Anchor23;
-position = "{478, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{273, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{478, 0}";
+},
+{
+name = bp_aa;
+position = "{444, 717}";
+},
+{
+name = center;
 position = "{371, 312}";
+},
+{
+name = ee_oo;
+position = "{273, 429}";
+},
+{
+name = top;
+position = "{273, 786}";
+},
+{
+name = topleft;
+position = "{224, 717}";
 }
 );
 layerId = UUID0;
@@ -2967,48 +2970,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{283, 717}";
 },
 {
-name = Anchor14;
-position = "{283, 717}";
-},
-{
-name = Anchor15;
-position = "{312, 717}";
-},
-{
-name = Anchor16;
-position = "{312, 786}";
-},
-{
-name = Anchor17;
-position = "{322, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{322, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{322, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{312, 0}";
 },
 {
-name = Anchor23;
-position = "{506, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{120, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{506, 0}";
+},
+{
+name = bp_aa;
+position = "{312, 717}";
+},
+{
+name = center;
 position = "{410, 478}";
+},
+{
+name = ee_oo;
+position = "{322, 717}";
+},
+{
+name = top;
+position = "{312, 786}";
+},
+{
+name = topleft;
+position = "{283, 717}";
 }
 );
 layerId = UUID0;
@@ -3041,40 +3044,40 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{488, 683}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{649, 439}";
 },
 {
-name = Anchor15;
-position = "{488, 654}";
-},
-{
-name = Anchor16;
-position = "{395, 786}";
-},
-{
-name = Anchor17;
-position = "{292, 683}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{185, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{415, 0}";
 },
 {
-name = Anchor23;
+name = bottomright;
 position = "{415, 0}";
+},
+{
+name = bp_aa;
+position = "{488, 654}";
+},
+{
+name = ee_oo;
+position = "{292, 683}";
+},
+{
+name = top;
+position = "{395, 786}";
+},
+{
+name = topleft;
+position = "{488, 683}";
 }
 );
 layerId = UUID0;
@@ -3144,48 +3147,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{97, 717}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{107, 717}";
 },
 {
-name = Anchor15;
-position = "{146, 717}";
-},
-{
-name = Anchor16;
-position = "{136, 786}";
-},
-{
-name = Anchor17;
-position = "{156, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{156, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{195, 0}";
 },
 {
-name = Anchor23;
-position = "{98, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{187, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{98, 0}";
+},
+{
+name = bp_aa;
+position = "{146, 717}";
+},
+{
+name = center;
 position = "{244, 566}";
+},
+{
+name = ee_oo;
+position = "{156, 717}";
+},
+{
+name = top;
+position = "{136, 786}";
+},
+{
+name = topleft;
+position = "{97, 717}";
 }
 );
 layerId = UUID0;
@@ -3232,44 +3235,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{268, 717}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{292, 717}";
 },
 {
-name = Anchor15;
-position = "{332, 664}";
-},
-{
-name = Anchor16;
-position = "{253, 786}";
-},
-{
-name = Anchor17;
-position = "{185, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{185, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{273, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{176, 0}";
+},
+{
+name = bottomright;
 position = "{244, 0}";
 },
 {
-name = Anchor26;
-position = "{176, 0}";
+name = bp_aa;
+position = "{332, 664}";
+},
+{
+name = ee_oo;
+position = "{185, 717}";
+},
+{
+name = top;
+position = "{253, 786}";
+},
+{
+name = topleft;
+position = "{268, 717}";
 }
 );
 layerId = UUID0;
@@ -3315,48 +3318,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{234, 717}";
 },
 {
-name = Anchor14;
-position = "{234, 717}";
-},
-{
-name = Anchor15;
-position = "{268, 717}";
-},
-{
-name = Anchor16;
-position = "{263, 786}";
-},
-{
-name = Anchor17;
-position = "{273, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{273, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{273, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{273, 0}";
 },
 {
-name = Anchor23;
-position = "{478, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{290, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{478, 0}";
+},
+{
+name = bp_aa;
+position = "{268, 717}";
+},
+{
+name = center;
 position = "{371, 478}";
+},
+{
+name = ee_oo;
+position = "{273, 717}";
+},
+{
+name = top;
+position = "{263, 786}";
+},
+{
+name = topleft;
+position = "{234, 717}";
 }
 );
 layerId = UUID0;
@@ -3388,48 +3391,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{102, 717}";
 },
 {
-name = Anchor14;
-position = "{102, 717}";
-},
-{
-name = Anchor15;
-position = "{146, 717}";
-},
-{
-name = Anchor16;
-position = "{146, 786}";
-},
-{
-name = Anchor17;
-position = "{146, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{156, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{146, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{302, 0}";
 },
 {
-name = Anchor23;
-position = "{322, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{146, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{322, 0}";
+},
+{
+name = bp_aa;
+position = "{146, 717}";
+},
+{
+name = center;
 position = "{292, 478}";
+},
+{
+name = ee_oo;
+position = "{146, 717}";
+},
+{
+name = top;
+position = "{146, 786}";
+},
+{
+name = topleft;
+position = "{102, 717}";
 }
 );
 layerId = UUID0;
@@ -3466,53 +3469,53 @@ category = Letter;
 },
 {
 glyphname = brm_PHA;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:44:47 +0000";
 layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{117, 717}";
 },
 {
-name = Anchor14;
-position = "{117, 717}";
-},
-{
-name = Anchor15;
-position = "{146, 717}";
-},
-{
-name = Anchor16;
-position = "{146, 786}";
-},
-{
-name = Anchor17;
-position = "{146, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{156, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{146, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{302, 0}";
 },
 {
-name = Anchor23;
-position = "{322, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{146, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{322, 0}";
+},
+{
+name = bp_aa;
+position = "{146, 717}";
+},
+{
+name = center;
 position = "{263, 478}";
+},
+{
+name = ee_oo;
+position = "{146, 717}";
+},
+{
+name = top;
+position = "{146, 786}";
+},
+{
+name = topleft;
+position = "{117, 717}";
 }
 );
 layerId = UUID0;
@@ -3564,44 +3567,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{166, 656}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{585, 656}";
 },
 {
-name = Anchor15;
-position = "{624, 644}";
-},
-{
-name = Anchor16;
-position = "{375, 786}";
-},
-{
-name = Anchor17;
-position = "{175, 656}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{175, 686}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{375, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{175, 73}";
+},
+{
+name = bottomright;
 position = "{585, 78}";
 },
 {
-name = Anchor26;
-position = "{175, 73}";
+name = bp_aa;
+position = "{624, 644}";
+},
+{
+name = ee_oo;
+position = "{175, 656}";
+},
+{
+name = top;
+position = "{375, 786}";
+},
+{
+name = topleft;
+position = "{166, 656}";
 }
 );
 layerId = UUID0;
@@ -3638,48 +3641,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{739, 717}";
 },
 {
-name = Anchor14;
-position = "{739, 717}";
-},
-{
-name = Anchor15;
-position = "{781, 717}";
-},
-{
-name = Anchor16;
-position = "{405, 786}";
-},
-{
-name = Anchor17;
-position = "{786, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{791, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{375, 0}";
 },
 {
-name = Anchor23;
-position = "{580, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{175, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{580, 0}";
+},
+{
+name = bp_aa;
+position = "{781, 717}";
+},
+{
+name = center;
 position = "{688, 185}";
+},
+{
+name = ee_oo;
+position = "{786, 717}";
+},
+{
+name = top;
+position = "{405, 786}";
+},
+{
+name = topleft;
+position = "{739, 717}";
 }
 );
 layerId = UUID0;
@@ -3715,44 +3718,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{537, 717}";
 },
 {
-name = Anchor14;
-position = "{537, 717}";
-},
-{
-name = Anchor15;
-position = "{571, 717}";
-},
-{
-name = Anchor16;
-position = "{341, 786}";
-},
-{
-name = Anchor17;
-position = "{126, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{126, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{341, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{176, 0}";
+},
+{
+name = bottomright;
 position = "{375, 0}";
 },
 {
-name = Anchor26;
-position = "{176, 0}";
+name = bp_aa;
+position = "{571, 717}";
+},
+{
+name = ee_oo;
+position = "{126, 717}";
+},
+{
+name = top;
+position = "{341, 786}";
+},
+{
+name = topleft;
+position = "{537, 717}";
 }
 );
 layerId = UUID0;
@@ -3823,48 +3826,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{371, 717}";
 },
 {
-name = Anchor14;
-position = "{371, 717}";
-},
-{
-name = Anchor15;
-position = "{400, 717}";
-},
-{
-name = Anchor16;
-position = "{400, 786}";
-},
-{
-name = Anchor17;
-position = "{400, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{400, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{400, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{400, 0}";
 },
 {
-name = Anchor23;
-position = "{585, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{110, 15}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{585, 0}";
+},
+{
+name = bp_aa;
+position = "{400, 717}";
+},
+{
+name = center;
 position = "{556, 478}";
+},
+{
+name = ee_oo;
+position = "{400, 717}";
+},
+{
+name = top;
+position = "{400, 786}";
+},
+{
+name = topleft;
+position = "{371, 717}";
 }
 );
 layerId = UUID0;
@@ -3921,44 +3924,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{126, 717}";
 },
 {
-name = Anchor14;
-position = "{126, 717}";
-},
-{
-name = Anchor15;
-position = "{161, 717}";
-},
-{
-name = Anchor16;
-position = "{161, 786}";
-},
-{
-name = Anchor17;
-position = "{170, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{161, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{170, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{166, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{166, 0}";
+},
+{
+name = bottomright;
 position = "{146, 0}";
 },
 {
-name = Anchor26;
-position = "{166, 0}";
+name = bp_aa;
+position = "{161, 717}";
+},
+{
+name = ee_oo;
+position = "{170, 717}";
+},
+{
+name = top;
+position = "{161, 786}";
+},
+{
+name = topleft;
+position = "{126, 717}";
 }
 );
 layerId = UUID0;
@@ -3986,44 +3989,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{551, 717}";
 },
 {
-name = Anchor14;
-position = "{551, 717}";
-},
-{
-name = Anchor15;
-position = "{585, 717}";
-},
-{
-name = Anchor16;
-position = "{590, 786}";
-},
-{
-name = Anchor17;
-position = "{590, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{590, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{590, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{419, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{325, 80}";
+},
+{
+name = bottomright;
 position = "{439, 0}";
 },
 {
-name = Anchor26;
-position = "{325, 80}";
+name = bp_aa;
+position = "{585, 717}";
+},
+{
+name = ee_oo;
+position = "{590, 717}";
+},
+{
+name = top;
+position = "{590, 786}";
+},
+{
+name = topleft;
+position = "{551, 717}";
 }
 );
 layerId = UUID0;
@@ -4066,48 +4069,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{249, 717}";
 },
 {
-name = Anchor14;
-position = "{249, 717}";
-},
-{
-name = Anchor15;
-position = "{249, 717}";
-},
-{
-name = Anchor16;
-position = "{249, 786}";
-},
-{
-name = Anchor17;
-position = "{249, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{249, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{249, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{263, 0}";
 },
 {
-name = Anchor23;
-position = "{244, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{143, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{244, 0}";
+},
+{
+name = bp_aa;
+position = "{249, 717}";
+},
+{
+name = center;
 position = "{341, 478}";
+},
+{
+name = ee_oo;
+position = "{249, 717}";
+},
+{
+name = top;
+position = "{249, 786}";
+},
+{
+name = topleft;
+position = "{249, 717}";
 }
 );
 layerId = UUID0;
@@ -4163,44 +4166,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{292, 717}";
 },
 {
-name = Anchor14;
-position = "{292, 717}";
-},
-{
-name = Anchor15;
-position = "{327, 717}";
-},
-{
-name = Anchor16;
-position = "{327, 786}";
-},
-{
-name = Anchor17;
-position = "{327, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{307, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{327, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{327, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{367, 0}";
+},
+{
+name = bottomright;
 position = "{289, 0}";
 },
 {
-name = Anchor26;
-position = "{367, 0}";
+name = bp_aa;
+position = "{327, 717}";
+},
+{
+name = ee_oo;
+position = "{327, 717}";
+},
+{
+name = top;
+position = "{327, 786}";
+},
+{
+name = topleft;
+position = "{292, 717}";
 }
 );
 layerId = UUID0;
@@ -4236,48 +4239,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{102, 717}";
 },
 {
-name = Anchor14;
-position = "{102, 717}";
-},
-{
-name = Anchor15;
-position = "{146, 717}";
-},
-{
-name = Anchor16;
-position = "{141, 786}";
-},
-{
-name = Anchor17;
-position = "{141, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{146, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{141, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{312, 0}";
 },
 {
-name = Anchor23;
-position = "{439, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{146, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{439, 0}";
+},
+{
+name = bp_aa;
+position = "{146, 717}";
+},
+{
+name = center;
 position = "{263, 556}";
+},
+{
+name = ee_oo;
+position = "{141, 717}";
+},
+{
+name = top;
+position = "{141, 786}";
+},
+{
+name = topleft;
+position = "{102, 717}";
 }
 );
 layerId = UUID0;
@@ -4323,48 +4326,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{361, 717}";
 },
 {
-name = Anchor14;
-position = "{361, 717}";
-},
-{
-name = Anchor15;
-position = "{395, 717}";
-},
-{
-name = Anchor16;
-position = "{400, 786}";
-},
-{
-name = Anchor17;
-position = "{400, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{400, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{400, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{410, 0}";
 },
 {
-name = Anchor23;
-position = "{585, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{480, 80}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{585, 0}";
+},
+{
+name = bp_aa;
+position = "{395, 717}";
+},
+{
+name = center;
 position = "{537, 478}";
+},
+{
+name = ee_oo;
+position = "{400, 717}";
+},
+{
+name = top;
+position = "{400, 786}";
+},
+{
+name = topleft;
+position = "{361, 717}";
 }
 );
 layerId = UUID0;
@@ -4422,48 +4425,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{107, 717}";
 },
 {
-name = Anchor14;
-position = "{107, 717}";
-},
-{
-name = Anchor15;
-position = "{146, 717}";
-},
-{
-name = Anchor16;
-position = "{146, 786}";
-},
-{
-name = Anchor17;
-position = "{146, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{156, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{146, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{312, 0}";
 },
 {
-name = Anchor23;
-position = "{375, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{146, 0}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{375, 0}";
+},
+{
+name = bp_aa;
+position = "{146, 717}";
+},
+{
+name = center;
 position = "{292, 478}";
+},
+{
+name = ee_oo;
+position = "{146, 717}";
+},
+{
+name = top;
+position = "{146, 786}";
+},
+{
+name = topleft;
+position = "{107, 717}";
 }
 );
 layerId = UUID0;
@@ -4505,48 +4508,48 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{595, 717}";
 },
 {
-name = Anchor14;
-position = "{595, 717}";
-},
-{
-name = Anchor15;
-position = "{590, 717}";
-},
-{
-name = Anchor16;
-position = "{590, 786}";
-},
-{
-name = Anchor17;
-position = "{590, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{590, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{590, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{429, 0}";
 },
 {
-name = Anchor23;
-position = "{478, 0}";
-},
-{
-name = Anchor26;
+name = bottomleft;
 position = "{320, 80}";
 },
 {
-name = Anchor31;
+name = bottomright;
+position = "{478, 0}";
+},
+{
+name = bp_aa;
+position = "{590, 717}";
+},
+{
+name = center;
 position = "{693, 478}";
+},
+{
+name = ee_oo;
+position = "{590, 717}";
+},
+{
+name = top;
+position = "{590, 786}";
+},
+{
+name = topleft;
+position = "{595, 717}";
 }
 );
 layerId = UUID0;
@@ -4604,44 +4607,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{463, 585}";
 },
 {
-name = Anchor14;
-position = "{463, 585}";
-},
-{
-name = Anchor15;
-position = "{322, 717}";
-},
-{
-name = Anchor16;
-position = "{322, 786}";
-},
-{
-name = Anchor17;
-position = "{185, 659}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{185, 537}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{244, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{153, 0}";
+},
+{
+name = bottomright;
 position = "{63, 0}";
 },
 {
-name = Anchor26;
-position = "{153, 0}";
+name = bp_aa;
+position = "{322, 717}";
+},
+{
+name = ee_oo;
+position = "{185, 659}";
+},
+{
+name = top;
+position = "{322, 786}";
+},
+{
+name = topleft;
+position = "{463, 585}";
 }
 );
 layerId = UUID0;
@@ -4708,44 +4711,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{292, 717}";
 },
 {
-name = Anchor14;
-position = "{292, 717}";
-},
-{
-name = Anchor15;
-position = "{390, 717}";
-},
-{
-name = Anchor16;
-position = "{322, 786}";
-},
-{
-name = Anchor17;
-position = "{224, 634}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{253, 576}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{244, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{146, 0}";
+},
+{
+name = bottomright;
 position = "{370, 0}";
 },
 {
-name = Anchor26;
-position = "{146, 0}";
+name = bp_aa;
+position = "{390, 717}";
+},
+{
+name = ee_oo;
+position = "{224, 634}";
+},
+{
+name = top;
+position = "{322, 786}";
+},
+{
+name = topleft;
+position = "{292, 717}";
 }
 );
 layerId = UUID0;
@@ -4804,44 +4807,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{288, 727}";
-},
-{
-name = Anchor14;
+name = aa;
 position = "{468, 566}";
 },
 {
-name = Anchor15;
-position = "{439, 683}";
-},
-{
-name = Anchor16;
-position = "{351, 786}";
-},
-{
-name = Anchor17;
-position = "{244, 585}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{244, 488}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{0, 0}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{292, 0}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{244, 0}";
+},
+{
+name = bottomright;
 position = "{537, 0}";
 },
 {
-name = Anchor26;
-position = "{244, 0}";
+name = bp_aa;
+position = "{439, 683}";
+},
+{
+name = ee_oo;
+position = "{244, 585}";
+},
+{
+name = top;
+position = "{351, 786}";
+},
+{
+name = topleft;
+position = "{288, 727}";
 }
 );
 layerId = UUID0;
@@ -4891,7 +4894,7 @@ name = Anchor33;
 position = "{126, 786}";
 },
 {
-name = _Anchor14;
+name = _aa;
 position = "{-8, 717}";
 }
 );
@@ -4925,7 +4928,7 @@ name = Anchor33;
 position = "{146, 917}";
 },
 {
-name = _Anchor15;
+name = _bp_aa;
 position = "{241, 632}";
 }
 );
@@ -4961,7 +4964,7 @@ name = Anchor33;
 position = "{126, 888}";
 },
 {
-name = _Anchor13;
+name = _topleft;
 position = "{-5, 717}";
 }
 );
@@ -4997,7 +5000,7 @@ name = Anchor33;
 position = "{170, 888}";
 },
 {
-name = _Anchor13;
+name = _topleft;
 position = "{-5, 717}";
 }
 );
@@ -5033,7 +5036,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor23;
+name = _bottomright;
 position = "{0, 0}";
 }
 );
@@ -5063,7 +5066,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor23;
+name = _bottomright;
 position = "{0, 0}";
 }
 );
@@ -5102,7 +5105,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _bottomleft;
 position = "{0, 0}";
 }
 );
@@ -5132,7 +5135,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _bottomleft;
 position = "{0, 0}";
 }
 );
@@ -5171,7 +5174,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor21;
+name = _bottom;
 position = "{258, 24}";
 }
 );
@@ -5241,7 +5244,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor21;
+name = _bottom;
 position = "{258, 24}";
 }
 );
@@ -5318,7 +5321,7 @@ name = Anchor33;
 position = "{-137, 786}";
 },
 {
-name = _Anchor17;
+name = _ee_oo;
 position = "{9, 717}";
 }
 );
@@ -5352,7 +5355,7 @@ name = Anchor33;
 position = "{-137, 927}";
 },
 {
-name = _Anchor18;
+name = _ai;
 position = "{0, 751}";
 }
 );
@@ -5395,7 +5398,7 @@ name = Anchor33;
 position = "{283, 786}";
 },
 {
-name = _Anchor17;
+name = _ee_oo;
 position = "{273, 717}";
 }
 );
@@ -5438,7 +5441,7 @@ name = Anchor33;
 position = "{283, 786}";
 },
 {
-name = _Anchor19;
+name = _au;
 position = "{292, 593}";
 }
 );
@@ -5486,7 +5489,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor16;
+name = _top;
 position = "{145, 786}";
 }
 );
@@ -6124,9 +6127,39 @@ category = Letter;
 },
 {
 glyphname = brm_num1;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:37:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = ai;
+position = "{377, 754}";
+},
+{
+name = au;
+position = "{382, 593}";
+},
+{
+name = bottom;
+position = "{392, 0}";
+},
+{
+name = bottomleft;
+position = "{98, 0}";
+},
+{
+name = bottomright;
+position = "{671, 0}";
+},
+{
+name = ee_oo;
+position = "{377, 717}";
+},
+{
+name = topleft;
+position = "{111, 717}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6147,9 +6180,35 @@ category = Letter;
 },
 {
 glyphname = brm_num2;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{384, 596}";
+},
+{
+name = bottom;
+position = "{384, 0}";
+},
+{
+name = bottomleft;
+position = "{98, 0}";
+},
+{
+name = bottomright;
+position = "{671, 0}";
+},
+{
+name = ee_oo;
+position = "{384, 714}";
+},
+{
+name = topleft;
+position = "{98, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6179,9 +6238,35 @@ category = Letter;
 },
 {
 glyphname = brm_num3;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{395, 596}";
+},
+{
+name = bottom;
+position = "{395, 0}";
+},
+{
+name = bottomleft;
+position = "{97, 0}";
+},
+{
+name = bottomright;
+position = "{670, 0}";
+},
+{
+name = ee_oo;
+position = "{395, 714}";
+},
+{
+name = topleft;
+position = "{97, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6220,9 +6305,35 @@ category = Letter;
 },
 {
 glyphname = brm_num4;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{396, 596}";
+},
+{
+name = bottom;
+position = "{396, 0}";
+},
+{
+name = bottomleft;
+position = "{98, 0}";
+},
+{
+name = bottomright;
+position = "{695, 0}";
+},
+{
+name = ee_oo;
+position = "{396, 714}";
+},
+{
+name = topleft;
+position = "{98, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6251,9 +6362,35 @@ category = Letter;
 },
 {
 glyphname = brm_num5;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:43:46 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{195, 596}";
+},
+{
+name = bottom;
+position = "{195, 0}";
+},
+{
+name = bottomleft;
+position = "{146, 0}";
+},
+{
+name = bottomright;
+position = "{511, 0}";
+},
+{
+name = ee_oo;
+position = "{195, 714}";
+},
+{
+name = topleft;
+position = "{146, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6290,9 +6427,35 @@ category = Letter;
 },
 {
 glyphname = brm_num6;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{302, 596}";
+},
+{
+name = bottom;
+position = "{302, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{516, 0}";
+},
+{
+name = ee_oo;
+position = "{302, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6353,9 +6516,35 @@ category = Letter;
 },
 {
 glyphname = brm_num7;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{298, 596}";
+},
+{
+name = bottom;
+position = "{298, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{508, 0}";
+},
+{
+name = ee_oo;
+position = "{298, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6400,9 +6589,35 @@ category = Letter;
 },
 {
 glyphname = brm_num8;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:43:17 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{134, 596}";
+},
+{
+name = bottom;
+position = "{301, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{515, 0}";
+},
+{
+name = ee_oo;
+position = "{133, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6445,9 +6660,35 @@ category = Letter;
 },
 {
 glyphname = brm_num9;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:43:32 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{151, 260}";
+},
+{
+name = bottom;
+position = "{246, 0}";
+},
+{
+name = bottomleft;
+position = "{98, 0}";
+},
+{
+name = bottomright;
+position = "{405, 0}";
+},
+{
+name = ee_oo;
+position = "{174, 414}";
+},
+{
+name = topleft;
+position = "{98, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6488,9 +6729,35 @@ category = Letter;
 },
 {
 glyphname = brm_num10;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:44:19 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{159, 404}";
+},
+{
+name = bottom;
+position = "{516, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{945, 0}";
+},
+{
+name = ee_oo;
+position = "{709, 299}";
+},
+{
+name = topleft;
+position = "{102, 702}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6550,9 +6817,35 @@ category = Letter;
 },
 {
 glyphname = brm_num20;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:44:27 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{631, 536}";
+},
+{
+name = bottom;
+position = "{413, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{739, 0}";
+},
+{
+name = ee_oo;
+position = "{413, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6605,9 +6898,35 @@ category = Letter;
 },
 {
 glyphname = brm_num30;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{430, 596}";
+},
+{
+name = bottom;
+position = "{430, 0}";
+},
+{
+name = bottomleft;
+position = "{0, 0}";
+},
+{
+name = bottomright;
+position = "{773, 0}";
+},
+{
+name = ee_oo;
+position = "{430, 714}";
+},
+{
+name = topleft;
+position = "{0, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6657,9 +6976,35 @@ category = Letter;
 },
 {
 glyphname = brm_num40;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:44:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{144, 596}";
+},
+{
+name = bottom;
+position = "{398, 0}";
+},
+{
+name = bottomleft;
+position = "{68, 0}";
+},
+{
+name = bottomright;
+position = "{748, 0}";
+},
+{
+name = ee_oo;
+position = "{398, 714}";
+},
+{
+name = topleft;
+position = "{68, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6709,9 +7054,35 @@ category = Letter;
 },
 {
 glyphname = brm_num50;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{341, 596}";
+},
+{
+name = bottom;
+position = "{341, 0}";
+},
+{
+name = bottomleft;
+position = "{53, 0}";
+},
+{
+name = bottomright;
+position = "{591, 0}";
+},
+{
+name = ee_oo;
+position = "{341, 714}";
+},
+{
+name = topleft;
+position = "{53, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6760,9 +7131,35 @@ category = Letter;
 },
 {
 glyphname = brm_num60;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{274, 596}";
+},
+{
+name = bottom;
+position = "{274, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{432, 0}";
+},
+{
+name = ee_oo;
+position = "{274, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6787,9 +7184,35 @@ category = Letter;
 },
 {
 glyphname = brm_num70;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{311, 596}";
+},
+{
+name = bottom;
+position = "{311, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{535, 0}";
+},
+{
+name = ee_oo;
+position = "{311, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6835,9 +7258,35 @@ category = Letter;
 },
 {
 glyphname = brm_num80;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{499, 596}";
+},
+{
+name = bottom;
+position = "{499, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{911, 0}";
+},
+{
+name = ee_oo;
+position = "{499, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6890,9 +7339,35 @@ category = Letter;
 },
 {
 glyphname = brm_num90;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{417, 596}";
+},
+{
+name = bottom;
+position = "{417, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{747, 0}";
+},
+{
+name = ee_oo;
+position = "{417, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -6961,9 +7436,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{382, 596}";
+},
+{
+name = bottom;
+position = "{382, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{676, 0}";
+},
+{
+name = ee_oo;
+position = "{382, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7018,9 +7519,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{287, 596}";
+},
+{
+name = bottom;
+position = "{287, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{486, 0}";
+},
+{
+name = ee_oo;
+position = "{287, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7076,9 +7603,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit0;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:49:45 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{133, 436}";
+},
+{
+name = ai;
+position = "{191, 565}";
+},
+{
+name = au;
+position = "{189, 596}";
+},
+{
+name = bottom;
+position = "{189, 0}";
+},
+{
+name = bottomleft;
+position = "{127, 0}";
+},
+{
+name = bottomright;
+position = "{251, 0}";
+},
+{
+name = ee_oo;
+position = "{189, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7107,9 +7664,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit1;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:49:33 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{116, 705}";
+},
+{
+name = ai;
+position = "{101, 705}";
+},
+{
+name = au;
+position = "{114, 596}";
+},
+{
+name = bottom;
+position = "{381, 0}";
+},
+{
+name = bottomleft;
+position = "{49, 0}";
+},
+{
+name = bottomright;
+position = "{714, 0}";
+},
+{
+name = ee_oo;
+position = "{90, 660}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7140,9 +7727,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit2;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:49:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{233, 724}";
+},
+{
+name = ai;
+position = "{232, 705}";
+},
+{
+name = au;
+position = "{323, 596}";
+},
+{
+name = bottom;
+position = "{323, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{583, 0}";
+},
+{
+name = ee_oo;
+position = "{351, 566}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7186,9 +7803,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit3;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:49:52 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{232, 724}";
+},
+{
+name = ai;
+position = "{201, 705}";
+},
+{
+name = au;
+position = "{305, 596}";
+},
+{
+name = bottom;
+position = "{305, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{523, 0}";
+},
+{
+name = ee_oo;
+position = "{305, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7247,9 +7894,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit4;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:49:57 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{136, 724}";
+},
+{
+name = ai;
+position = "{121, 705}";
+},
+{
+name = au;
+position = "{139, 596}";
+},
+{
+name = bottom;
+position = "{398, 0}";
+},
+{
+name = bottomleft;
+position = "{78, 0}";
+},
+{
+name = bottomright;
+position = "{749, 0}";
+},
+{
+name = ee_oo;
+position = "{126, 650}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7312,9 +7989,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit5;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:50:09 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{392, 714}";
+},
+{
+name = ai;
+position = "{171, 705}";
+},
+{
+name = au;
+position = "{385, 596}";
+},
+{
+name = bottom;
+position = "{385, 0}";
+},
+{
+name = bottomleft;
+position = "{59, 0}";
+},
+{
+name = bottomright;
+position = "{702, 0}";
+},
+{
+name = ee_oo;
+position = "{380, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7381,9 +8088,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit6;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:50:27 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{152, 714}";
+},
+{
+name = ai;
+position = "{131, 715}";
+},
+{
+name = au;
+position = "{299, 596}";
+},
+{
+name = bottom;
+position = "{299, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{511, 0}";
+},
+{
+name = ee_oo;
+position = "{150, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7429,9 +8166,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit7;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:50:32 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{375, 703}";
+},
+{
+name = ai;
+position = "{281, 705}";
+},
+{
+name = au;
+position = "{147, 596}";
+},
+{
+name = bottom;
+position = "{340, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{593, 0}";
+},
+{
+name = ee_oo;
+position = "{175, 639}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7480,9 +8247,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit8;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:50:36 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{356, 717}";
+},
+{
+name = ai;
+position = "{101, 705}";
+},
+{
+name = au;
+position = "{157, 502}";
+},
+{
+name = bottom;
+position = "{259, 0}";
+},
+{
+name = bottomleft;
+position = "{63, 0}";
+},
+{
+name = bottomright;
+position = "{431, 0}";
+},
+{
+name = ee_oo;
+position = "{160, 590}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -7517,9 +8314,39 @@ category = Letter;
 },
 {
 glyphname = brm_digit9;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:50:40 +0000";
 layers = (
 {
+anchors = (
+{
+name = aa;
+position = "{341, 726}";
+},
+{
+name = ai;
+position = "{221, 695}";
+},
+{
+name = au;
+position = "{149, 596}";
+},
+{
+name = bottom;
+position = "{351, 0}";
+},
+{
+name = bottomleft;
+position = "{86, 0}";
+},
+{
+name = bottomright;
+position = "{615, 0}";
+},
+{
+name = ee_oo;
+position = "{173, 641}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -11212,7 +12039,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor31;
+name = _center;
 position = "{0, 478}";
 }
 );
@@ -11506,44 +12333,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{380, 717}";
 },
 {
-name = Anchor14;
-position = "{380, 717}";
-},
-{
-name = Anchor15;
-position = "{397, 717}";
-},
-{
-name = Anchor16;
-position = "{390, 786}";
-},
-{
-name = Anchor17;
-position = "{400, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{400, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{400, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{585, -293}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{470, -293}";
+},
+{
+name = bottomright;
 position = "{585, -229}";
 },
 {
-name = Anchor26;
-position = "{470, -293}";
+name = bp_aa;
+position = "{397, 717}";
+},
+{
+name = ee_oo;
+position = "{400, 717}";
+},
+{
+name = top;
+position = "{390, 786}";
+},
+{
+name = topleft;
+position = "{380, 717}";
 }
 );
 layerId = UUID0;
@@ -11629,44 +12456,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{375, 717}";
 },
 {
-name = Anchor14;
-position = "{375, 717}";
-},
-{
-name = Anchor15;
-position = "{375, 717}";
-},
-{
-name = Anchor16;
-position = "{375, 786}";
-},
-{
-name = Anchor17;
-position = "{375, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{375, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{375, 593}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{534, -293}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{410, -293}";
+},
+{
+name = bottomright;
 position = "{520, -217}";
 },
 {
-name = Anchor26;
-position = "{410, -293}";
+name = bp_aa;
+position = "{375, 717}";
+},
+{
+name = ee_oo;
+position = "{375, 717}";
+},
+{
+name = top;
+position = "{375, 786}";
+},
+{
+name = topleft;
+position = "{375, 717}";
 }
 );
 layerId = UUID0;
@@ -11719,44 +12546,44 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
+name = aa;
 position = "{341, 717}";
 },
 {
-name = Anchor14;
-position = "{341, 717}";
-},
-{
-name = Anchor15;
-position = "{366, 717}";
-},
-{
-name = Anchor16;
-position = "{273, 786}";
-},
-{
-name = Anchor17;
-position = "{273, 717}";
-},
-{
-name = Anchor18;
+name = ai;
 position = "{273, 754}";
 },
 {
-name = Anchor19;
+name = au;
 position = "{168, 549}";
 },
 {
-name = Anchor21;
+name = bottom;
 position = "{402, -293}";
 },
 {
-name = Anchor23;
+name = bottomleft;
+position = "{320, -293}";
+},
+{
+name = bottomright;
 position = "{237, -293}";
 },
 {
-name = Anchor26;
-position = "{320, -293}";
+name = bp_aa;
+position = "{366, 717}";
+},
+{
+name = ee_oo;
+position = "{273, 717}";
+},
+{
+name = top;
+position = "{273, 786}";
+},
+{
+name = topleft;
+position = "{341, 717}";
 }
 );
 layerId = UUID0;
@@ -11826,9 +12653,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.2;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{543, 596}";
+},
+{
+name = bottom;
+position = "{543, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{988, 0}";
+},
+{
+name = ee_oo;
+position = "{543, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -11887,9 +12740,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.3;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{543, 596}";
+},
+{
+name = bottom;
+position = "{543, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{988, 0}";
+},
+{
+name = ee_oo;
+position = "{543, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -11955,9 +12834,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.4;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{621, 596}";
+},
+{
+name = bottom;
+position = "{621, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1144, 0}";
+},
+{
+name = ee_oo;
+position = "{621, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12028,9 +12933,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.5;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{546, 596}";
+},
+{
+name = bottom;
+position = "{546, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{994, 0}";
+},
+{
+name = ee_oo;
+position = "{546, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12109,9 +13040,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.6;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{570, 596}";
+},
+{
+name = bottom;
+position = "{570, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1053, 0}";
+},
+{
+name = ee_oo;
+position = "{570, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12214,9 +13171,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.7;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{569, 596}";
+},
+{
+name = bottom;
+position = "{569, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1050, 0}";
+},
+{
+name = ee_oo;
+position = "{569, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12303,9 +13286,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.8;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{572, 596}";
+},
+{
+name = bottom;
+position = "{572, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1057, 0}";
+},
+{
+name = ee_oo;
+position = "{572, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12390,9 +13399,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.9;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{537, 596}";
+},
+{
+name = bottom;
+position = "{537, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{986, 0}";
+},
+{
+name = ee_oo;
+position = "{537, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12472,9 +13507,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.10;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{736, 596}";
+},
+{
+name = bottom;
+position = "{736, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1384, 0}";
+},
+{
+name = ee_oo;
+position = "{736, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12576,9 +13637,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.20;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{657, 596}";
+},
+{
+name = bottom;
+position = "{657, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1227, 0}";
+},
+{
+name = ee_oo;
+position = "{657, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12673,9 +13760,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.30;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{674, 596}";
+},
+{
+name = bottom;
+position = "{674, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1237, 0}";
+},
+{
+name = ee_oo;
+position = "{674, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12758,9 +13871,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.40;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{651, 596}";
+},
+{
+name = bottom;
+position = "{651, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1254, 0}";
+},
+{
+name = ee_oo;
+position = "{651, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12846,9 +13985,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.50;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{583, 596}";
+},
+{
+name = bottom;
+position = "{583, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1070, 0}";
+},
+{
+name = ee_oo;
+position = "{583, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -12939,9 +14104,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.60;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{513, 596}";
+},
+{
+name = bottom;
+position = "{513, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{911, 0}";
+},
+{
+name = ee_oo;
+position = "{513, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13008,9 +14199,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.70;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{533, 596}";
+},
+{
+name = bottom;
+position = "{533, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{979, 0}";
+},
+{
+name = ee_oo;
+position = "{533, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13092,9 +14309,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.80;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{717, 596}";
+},
+{
+name = bottom;
+position = "{717, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1346, 0}";
+},
+{
+name = ee_oo;
+position = "{717, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13189,9 +14432,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.90;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{661, 596}";
+},
+{
+name = bottom;
+position = "{661, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1235, 0}";
+},
+{
+name = ee_oo;
+position = "{661, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13302,9 +14571,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.100;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{648, 596}";
+},
+{
+name = bottom;
+position = "{648, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{1208, 0}";
+},
+{
+name = ee_oo;
+position = "{648, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13401,9 +14696,35 @@ category = Letter;
 },
 {
 glyphname = brm_num100.1000;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{504, 596}";
+},
+{
+name = bottom;
+position = "{504, 0}";
+},
+{
+name = bottomleft;
+position = "{29, 0}";
+},
+{
+name = bottomright;
+position = "{921, 0}";
+},
+{
+name = ee_oo;
+position = "{504, 714}";
+},
+{
+name = topleft;
+position = "{29, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13501,9 +14822,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.2;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{448, 596}";
+},
+{
+name = bottom;
+position = "{448, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{798, 0}";
+},
+{
+name = ee_oo;
+position = "{448, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13564,9 +14911,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.3;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{448, 596}";
+},
+{
+name = bottom;
+position = "{448, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{798, 0}";
+},
+{
+name = ee_oo;
+position = "{448, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13633,9 +15006,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.4;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{535, 596}";
+},
+{
+name = bottom;
+position = "{535, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{973, 0}";
+},
+{
+name = ee_oo;
+position = "{535, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13707,9 +15106,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.5;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{463, 596}";
+},
+{
+name = bottom;
+position = "{463, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{828, 0}";
+},
+{
+name = ee_oo;
+position = "{463, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13789,9 +15214,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.6;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{485, 596}";
+},
+{
+name = bottom;
+position = "{485, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{882, 0}";
+},
+{
+name = ee_oo;
+position = "{485, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13895,9 +15346,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.7;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{454, 596}";
+},
+{
+name = bottom;
+position = "{454, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{820, 0}";
+},
+{
+name = ee_oo;
+position = "{454, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -13979,9 +15456,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.8;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{489, 596}";
+},
+{
+name = bottom;
+position = "{489, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{891, 0}";
+},
+{
+name = ee_oo;
+position = "{489, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14067,9 +15570,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.9;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{456, 596}";
+},
+{
+name = bottom;
+position = "{456, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{824, 0}";
+},
+{
+name = ee_oo;
+position = "{456, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14150,9 +15679,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.10;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{648, 596}";
+},
+{
+name = bottom;
+position = "{648, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{1209, 0}";
+},
+{
+name = ee_oo;
+position = "{648, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14255,9 +15810,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.20;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{562, 596}";
+},
+{
+name = bottom;
+position = "{562, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{1037, 0}";
+},
+{
+name = ee_oo;
+position = "{562, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14353,9 +15934,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.30;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{573, 596}";
+},
+{
+name = bottom;
+position = "{573, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{1058, 0}";
+},
+{
+name = ee_oo;
+position = "{573, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14440,9 +16047,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.40;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{560, 596}";
+},
+{
+name = bottom;
+position = "{560, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{1071, 0}";
+},
+{
+name = ee_oo;
+position = "{560, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14529,9 +16162,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.50;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{510, 596}";
+},
+{
+name = bottom;
+position = "{510, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{923, 0}";
+},
+{
+name = ee_oo;
+position = "{510, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14623,9 +16282,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.60;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{428, 596}";
+},
+{
+name = bottom;
+position = "{428, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{769, 0}";
+},
+{
+name = ee_oo;
+position = "{428, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14693,9 +16378,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.70;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{450, 596}";
+},
+{
+name = bottom;
+position = "{450, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{813, 0}";
+},
+{
+name = ee_oo;
+position = "{450, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14778,9 +16489,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.80;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{631, 596}";
+},
+{
+name = bottom;
+position = "{631, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{1175, 0}";
+},
+{
+name = ee_oo;
+position = "{631, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14876,9 +16613,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.90;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{566, 596}";
+},
+{
+name = bottom;
+position = "{566, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{1045, 0}";
+},
+{
+name = ee_oo;
+position = "{566, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -14990,9 +16753,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.100;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{562, 596}";
+},
+{
+name = bottom;
+position = "{562, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{1037, 0}";
+},
+{
+name = ee_oo;
+position = "{562, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -15090,9 +16879,35 @@ category = Letter;
 },
 {
 glyphname = brm_num1000.1000;
-lastChange = "2019-09-20 20:39:33 +0000";
+lastChange = "2023-03-23 13:38:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = au;
+position = "{421, 596}";
+},
+{
+name = bottom;
+position = "{421, 0}";
+},
+{
+name = bottomleft;
+position = "{88, 0}";
+},
+{
+name = bottomright;
+position = "{755, 0}";
+},
+{
+name = ee_oo;
+position = "{421, 714}";
+},
+{
+name = topleft;
+position = "{88, 714}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -15196,52 +17011,52 @@ layers = (
 {
 anchors = (
 {
-name = Anchor13;
-position = "{292, 717}";
-},
-{
-name = Anchor14;
-position = "{292, 717}";
-},
-{
-name = Anchor15;
-position = "{537, 717}";
-},
-{
-name = Anchor16;
-position = "{292, 786}";
-},
-{
-name = Anchor17;
-position = "{97, 390}";
-},
-{
-name = Anchor18;
-position = "{97, 341}";
-},
-{
-name = Anchor19;
-position = "{0, 0}";
-},
-{
-name = Anchor21;
-position = "{292, 0}";
-},
-{
-name = Anchor23;
-position = "{332, 0}";
-},
-{
-name = Anchor26;
-position = "{97, 0}";
-},
-{
 name = Anchor29;
 position = "{292, 786}";
 },
 {
-name = Anchor31;
+name = aa;
+position = "{292, 717}";
+},
+{
+name = ai;
+position = "{97, 341}";
+},
+{
+name = au;
+position = "{0, 0}";
+},
+{
+name = bottom;
+position = "{292, 0}";
+},
+{
+name = bottomleft;
+position = "{97, 0}";
+},
+{
+name = bottomright;
+position = "{332, 0}";
+},
+{
+name = bp_aa;
+position = "{537, 717}";
+},
+{
+name = center;
 position = "{224, 224}";
+},
+{
+name = ee_oo;
+position = "{97, 390}";
+},
+{
+name = top;
+position = "{292, 786}";
+},
+{
+name = topleft;
+position = "{292, 717}";
 }
 );
 layerId = UUID0;
@@ -16654,7 +18469,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor23;
+name = _bottomright;
 position = "{0, 0}";
 }
 );
@@ -16683,7 +18498,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor23;
+name = _bottomright;
 position = "{0, 0}";
 }
 );
@@ -16730,7 +18545,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor23;
+name = _bottomright;
 position = "{0, 0}";
 }
 );
@@ -16777,7 +18592,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _bottomleft;
 position = "{0, 0}";
 }
 );
@@ -16806,7 +18621,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _bottomleft;
 position = "{-20, 0}";
 }
 );
@@ -16835,7 +18650,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _bottomleft;
 position = "{0, 0}";
 }
 );
@@ -16882,7 +18697,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _bottomleft;
 position = "{0, 0}";
 }
 );
@@ -16920,7 +18735,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor26;
+name = _bottomleft;
 position = "{0, 0}";
 }
 );
@@ -16967,7 +18782,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor23;
+name = _bottomright;
 position = "{-40, 0}";
 }
 );
@@ -16996,7 +18811,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor23;
+name = _bottomright;
 position = "{-111, 0}";
 }
 );
