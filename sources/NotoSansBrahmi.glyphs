@@ -565,7 +565,7 @@ code = "# Automatic Code Start\012";
 name = mkmk;
 },
 {
-code = "lookup PairPositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos brm_TTA <NULL> brm_VOCALIC_R.alt2 <100 0 0 0>;\012    pos brm_DA <NULL> brm_VOCALIC_RR.alt <0 189 0 0>;\012    pos brm_LA <NULL> brm_VOCALIC_R.alt2 <-20 -80 0 0>;\012    pos SA <NULL> brm_VOCALIC_R.alt2 <0 -80 0 0>;\012    pos brm_LLA <NULL> brm_VOCALIC_R.alt2 <-20 -80 0 0>;\012    pos brm_LLLA <NULL> brm_VOCALIC_RR <0 23 0 0>;\012    pos brm_JNYA <NULL> brm_vowelU <0 -80 0 0>;\012} PairPositioning27;\012\012# Can't use automatic kerning because this is a base kerned against a mark!\012pos brm_TA <150 0 150 0> brm_VOCALIC_R;\012";
+code = "lookup PairPositioning27 {\012    lookupflag 0;\012    ;\012    # Original source: 16 \012    pos brm_TTA <NULL> brm_VOCALIC_R.alt2 <100 0 0 0>;\012    pos brm_DA <NULL> brm_VOCALIC_RR.alt <0 189 0 0>;\012    pos brm_LA <NULL> brm_VOCALIC_R.alt2 <-20 -80 0 0>;\012    pos SA <NULL> brm_VOCALIC_R.alt2 <0 -80 0 0>;\012    pos brm_LLA <NULL> brm_VOCALIC_R.alt2 <-20 -80 0 0>;\012    pos brm_LLLA <NULL> brm_VOCALIC_RR <0 23 0 0>;\012    pos brm_JNYA <NULL> brm_vowelU <0 -80 0 0>;\012} PairPositioning27;\012\012# Add air to base + vocalic R, see #6\012pos @class15 <150 0 150 0> brm_VOCALIC_R;\012";
 name = kern;
 }
 );
